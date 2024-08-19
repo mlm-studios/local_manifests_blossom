@@ -6,9 +6,10 @@
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
+  <remote name="device" fetch="https://github.com/dandelion64-Archives" />
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="astechpro20"  revision="typhoon" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="device"  revision="staging/lineage-20-selinux" />
 
   <!-- SELinux Policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
