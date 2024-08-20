@@ -3,29 +3,28 @@
 
   <!-- Remotes -->
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
-  <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
-  
+
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="astechpro20" revision="lineage-20" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="astechpro20" revision="Lineage-21" />
 
   <!-- SELinux Policies -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="25ji" revision="fourteen" />
 
   <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="t25" revision="lineage-20_blossom" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fourteen" />
 
   <!-- Kernel Trees -->
-  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="lineage-20">
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="lineage-20" />
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="Udon_v2" />
 
-  <!-- RevampedFMRadio -->
-  <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="25ji" revision="thirteen" />
-
+  <!-- FM Radio app -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="LOS" revision="lineage-21.0" />
 
 </manifest>
