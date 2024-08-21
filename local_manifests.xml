@@ -6,7 +6,6 @@
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
-  <remote name="AOS" fetch="https://github.com/ArrowOS" />
 
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="yaap-fourteen" />
@@ -24,8 +23,5 @@
 
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="Udon_v2" />
-
-  <!-- libtinyxml -->
-  <project path="external/tinyxml" name="android_external_tinyxml" remote="AOS" revision="arrow-13.1" />
 
 </manifest>
