@@ -9,13 +9,13 @@
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="matrixx-14" />
 
-  <!-- SELinux Policies -->
+  <!-- SELinux policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="25ji" revision="fourteen" />
 
   <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fourteen" />
-
-  <!-- Kernel Trees -->
+   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fourteen" />
+  
+  <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
