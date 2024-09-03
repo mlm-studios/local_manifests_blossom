@@ -5,7 +5,6 @@
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
-  <remote name="idk" fetch="https://github.com/xiaomi-blossom-dev" />
   
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="matrixx-14" />
@@ -22,5 +21,6 @@
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="idk" revision="fourteen" />
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="Udon_v2" />
+  
 </manifest>
