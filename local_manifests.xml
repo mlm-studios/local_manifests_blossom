@@ -10,6 +10,7 @@
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="EverestOS-14" />
 
   <!-- SELinux policies -->
+  <remove-project path="device/mediatek/sepolicy_vndr" name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="astechpro20" revision="fourteen" />
 
   <!-- Hardware Supports -->
