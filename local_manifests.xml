@@ -13,6 +13,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="astechpro20" revision="fourteen" />
 
   <!-- Hardware Supports -->
+   <remove-project name="android_hardware_mediatek" />
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="astechpro20" revision="fourteen" />
   
   <!-- kernel tree -->
