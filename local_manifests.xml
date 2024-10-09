@@ -5,7 +5,6 @@
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
-  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-21.0" />
   
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="blaze-15" />
