@@ -13,7 +13,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="astechpro20" revision="fourteen" />
 
   <!-- Hardware Supports -->
-   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="astechpro20" revision="fourteen" />
+   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="astechpro20" revision="lineage-22" />
   
   <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
