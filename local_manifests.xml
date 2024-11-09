@@ -15,6 +15,7 @@
   <!-- Hardware Supports -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="astechpro20" revision="lineage-22" />
   
+   <remove-project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" />
   <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
