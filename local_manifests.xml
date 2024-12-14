@@ -10,10 +10,11 @@
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="arrow-ex-13" />
 
   <!-- SELinux Policies -->
+  <remove-project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
   
   <!-- Hardware Supports -->
-  <remove-project path="hardware/mediatek" name="android_hardware_mediatek" />
+  <remove-project path="hardware/mediatek" name="hardware_mediatek" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="t25" revision="lineage-20_blossom" />
 
   <!-- Kernel Trees -->
@@ -22,7 +23,7 @@
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="lineage-20" />
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="astechpro20" revision="lineage-20" />
 
   <!-- RevampedFMRadio -->
   <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="25ji" revision="thirteen" />
