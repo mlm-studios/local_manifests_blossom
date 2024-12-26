@@ -8,7 +8,7 @@
   <remote name="mlm" fetch="https://github.com/mlm-games" />
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="mlm-games" revision="voltage-15" clone-depth="1" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="mlm" revision="voltage-15" clone-depth="1" />
 
   <!-- SELinux policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="astechpro20" revision="lineage-22" clone-depth="1" />
