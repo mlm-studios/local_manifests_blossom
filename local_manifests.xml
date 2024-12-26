@@ -19,7 +19,6 @@
   <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="u_aosp"  clone-depth="1" >
     <linkfile src="kernel-headers" dest="kernel/xiaomi/blossom" />
-    <linkfile src="modules" dest="kernel/xiaomi/blossom" />
   </project>
 
   <project path="kernel/xiaomi/blossom-kernel" name="niigo_kernel_xiaomi_blossom" remote="t25" revision="enanan"  clone-depth="1" >
