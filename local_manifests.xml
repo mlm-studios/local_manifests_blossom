@@ -17,12 +17,12 @@
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="astechpro20" revision="lineage-22" clone-depth="1" />
   
   <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="u_aosp"  clone-depth="1" >
-    <linkfile src="kernel-headers" dest="kernel/xiaomi/blossom" />
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2"  clone-depth="1" >
+    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
-  <project path="kernel/xiaomi/blossom-kernel" name="niigo_kernel_xiaomi_blossom" remote="t25" revision="enanan"  clone-depth="1" >
-  </project>
+<!--   <project path="kernel/xiaomi/blossom-kernel" name="niigo_kernel_xiaomi_blossom" remote="t25" revision="enanan"  clone-depth="1" >
+  </project> -->
 
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="astechpro20" revision="Udon_v2-1" clone-depth="1" />
