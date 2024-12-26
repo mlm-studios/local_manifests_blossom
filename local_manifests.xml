@@ -20,7 +20,7 @@
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
-  <project path="kernel/xiaomi/blossom" name="niigo_kernel_xiaomi_blossom" remote="t25" revision="enanan"  clone-depth="1" >
+  <project path="kernel/xiaomi/blossom-kernel" name="niigo_kernel_xiaomi_blossom" remote="t25" revision="enanan"  clone-depth="1" >
   </project>
 
   <!-- Vendor Trees -->
