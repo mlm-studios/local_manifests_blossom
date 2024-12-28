@@ -2,6 +2,6 @@
 <p align="center" id="description">Local_Manifests for LineageOS-22 (example) </p>
 
 ```
-git clone https://github.com/mlm-studios/local_manifests_blossom.git -b lineage-22 .repo/local_manifests
+git clone https://github.com/mlm-studios/local_manifests_blossom.git -b voltage-15 .repo/local_manifests
 ```
 
